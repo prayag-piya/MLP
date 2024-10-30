@@ -14,13 +14,13 @@ The project files include:
 
 # Strategy and Implementation
 - **User Input**: The user specifies the number of layers, neurons per layer, and input/output neurons.
-- Initialization: Based on user input, weights and biases are initialized randomly to match the network structure.
-- Forward Propagation:
-  * Linear and ReLU Activation: Hidden layers use the ReLU activation function, while the output layer uses Softmax for probability distribution.
-  * Softmax is ideal for multi-class classification problems, making it a suitable choice for Iris classification.
-- Backward Propagation:
-  * Gradient Descent: Optimizes weights and biases by calculating and applying gradients based on the loss.
-  * Categorical Cross-Entropy: Measures the strength of the prediction, using the predicted and actual outputs to compute the error.
+- **Initialization**: Based on user input, weights and biases are initialized randomly to match the network structure.
+- **Forward Propagation**:
+  * **Linear and ReLU Activation**: Hidden layers use the ReLU activation function, while the output layer uses Softmax for probability distribution.
+  * **Softmax** is ideal for multi-class classification problems, making it a suitable choice for Iris classification.
+- **Backward Propagation**:
+  * **Gradient Descent**: Optimizes weights and biases by calculating and applying gradients based on the loss.
+  * **Categorical Cross-Entropy**: Measures the strength of the prediction, using the predicted and actual outputs to compute the error.
 
 # Loss and Accuracy Comparison
 The models’ performance can be observed through loss and accuracy:
