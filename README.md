@@ -24,8 +24,8 @@ The project files include:
 
 # Loss and Accuracy Comparison
 The models’ performance can be observed through loss and accuracy:
-![Loss and Accuracy for the custom NumPy-based MLP over time.]Images/custome.png
+![Loss and Accuracy for the custom NumPy-based MLP over time.]/Images/custome.png
 
-![Loss and Accuracy using TensorFlow.]Images/tensorflow.png
+![Loss and Accuracy using TensorFlow.]/Images/tensorflow.png
 
 These plots provide insights into the models' convergence and predictive capabilities, showing how each algorithm’s performance varies based on structure and optimizer.
